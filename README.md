@@ -50,7 +50,7 @@ In this repo I create a study about unit layout test.
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/swift-unit-layout-test.git
 ```
 3. Open the file with extension .xcodeproj inside the folder project.
    
