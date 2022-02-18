@@ -7,48 +7,35 @@
 #  UNIT LAYOUT TEST
 
 <!-- DESCRIPTION -->
-This project are created for using as template for others repository.
+In this repo I create a study about unit layout test.
 
 
 
 <!-- INFO BADGES -->
-[![GitHub](https://img.shields.io/github/forks/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/repository-template)
-[![GitHub](https://img.shields.io/github/stars/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/repository-template)
-[![GitHub](https://img.shields.io/github/issues/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/repository-template/issues)
-[![GitHub](https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/repository-template/pulls)
+[![GitHub](https://img.shields.io/github/forks/PaoloProdossimoLopes/swift-unit-layout-test?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test)
+[![GitHub](https://img.shields.io/github/stars/PaoloProdossimoLopes/swift-unit-layout-test?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test)
+[![GitHub](https://img.shields.io/github/issues/PaoloProdossimoLopes/swift-unit-layout-test?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test/issues)
+[![GitHub](https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/swift-unit-layout-test?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test/pulls)
 
 
 
 <!-- ACTIONS -->
-<!-- Unsed
-* IF YOUR WAS USING THE V2 HEADER YOU DON NEED THIS SETION
-
 ## 🔎  ACTIONS
-[![REPORT ISSUE](https://img.shields.io/badge/-⚠️_REPORT_ISSUE-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/repository-template/issues)
-[![PULL REQUEST](https://img.shields.io/badge/-⤴️_PULL_REQUEST-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/repository-template/pulls)
--->
+[![REPORT ISSUE](https://img.shields.io/badge/-⚠️_REPORT_ISSUE-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test/issues)
+[![PULL REQUEST](https://img.shields.io/badge/-⤴️_PULL_REQUEST-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/swift-unit-layout-test/pulls)
+
 
 
 <!-- Index -->
 ## 🔢  INDEX 
-1. [SCREENSHOTS](#screenshots)
 2. [GETTING STARTED](#getting-started)
     - [PREREQUISITES](#prerequisites)
     - [INSTALATION](#instalation)
     - [RUN](#run)
-4. [USAGE](#usage) 
+    - [RUN TEST](#runtest)
 3. [CONTRIBUTING](#contributing)
 4. [LICENSE](#license)
 5. [CONTACT](#contact)
-
-
-
-<!-- SCREENSHOTS -->
-## 📸  SCREENSHOTS <a name="screenshots"></a>
-<!-- 
-<img src="https://github.com/PaoloProdossimoLopes/repository-template/blob/main/README_ASSETS/SIMULADOR_LOADER.png" height="300">                                 <img src="https://github.com/PaoloProdossimoLopes/repository-template/blob/main/README_ASSETS/SIMULADOR_HOME.png" height="300">                               
--->
-<p align="right">(<a href="#top">BACK TO TOP</a>)</p>
 
 
 
@@ -72,29 +59,8 @@ So that you can run the project follow this steps:
 1. Choose a simulator 
 2. Then click on the **COMMAND + R** keys or press the ▶︎ (icon at the top of the IDE).
 
-<p align="right">(<a href="#top">BACK TO TOP</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## 🪄  USAGE <a name="usage"></a>
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">BACK TO TOP</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## ☑️  Roadmap
-
-- [X] Do this.
-- [ ] Do That.
-  - [ ] Do other something.
-- [ ] Don't forgot to do this.
-
-See the [open issues](https://github.com/PaoloProdossimoLopes/repository-template/issues) for a full list of proposed features (and known issues).
+### RUN TEST <a name="runtest"/>
+1. Then click on the **COMMAND + U** keys.
 
 <p align="right">(<a href="#top">BACK TO TOP</a>)</p>
 
@@ -121,7 +87,7 @@ Don't forget to give the project a star! Thanks again!
 ## 📃  LICENSE <a name="license"></a>
 The MIT license was used in this project.
 
-![GitHub](https://img.shields.io/github/license/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)
+![GitHub](https://img.shields.io/github/license/PaoloProdossimoLopes/swift-unit-layout-test?color=black&style=flat-square)
 
 <p align="right">(<a href="#top">BACK TO TOP</a>)</p>
 
@@ -136,12 +102,3 @@ The MIT license was used in this project.
 [![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@pprodossimo)
 
 <p align="right">(<a href="#top">BACK TO TOP</a>)</p>
-
-
-
-<!--  NOTES
-find for badges in 
-https://shields.io/category/build
-or 
-https://github.com/PaoloProdossimoLopes/Badges4-README.md-Profile
--->
