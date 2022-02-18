@@ -15,6 +15,7 @@ final class SecondViewController: UIViewController {
         label.text = "SECOND TITLE LABEL"
         label.textColor = .black
         label.font = .boldSystemFont(ofSize: 18)
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     

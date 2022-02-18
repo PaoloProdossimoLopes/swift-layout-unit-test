@@ -11,54 +11,32 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="SwiftUnitLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MainViewController" customModule="SwiftUnitLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O6-tv-Wq3">
-                                <rect key="frame" x="153" y="594" width="110" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Open second"/>
-                                <connections>
-                                    <action selector="openSecondUIButttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZO-lg-0if"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blc-3K-IeG">
-                                <rect key="frame" x="184" y="251" width="46.5" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTITLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11p-0r-bpI">
-                                <rect key="frame" x="168.5" y="310" width="77" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Hf-jQ-J4I">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="11p-0r-bpI" firstAttribute="top" secondItem="blc-3K-IeG" secondAttribute="bottom" constant="38" id="4XF-HC-ZZi"/>
-                            <constraint firstItem="6O6-tv-Wq3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="550" id="TbM-Bb-uiJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6O6-tv-Wq3" secondAttribute="trailing" constant="151" id="Zvm-cG-XSE"/>
-                            <constraint firstItem="blc-3K-IeG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="avB-Ae-vWb"/>
-                            <constraint firstItem="11p-0r-bpI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bb5-lq-AFe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6O6-tv-Wq3" secondAttribute="bottom" constant="237" id="jmg-ra-tdh"/>
-                            <constraint firstItem="blc-3K-IeG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="ti7-OQ-bhE"/>
-                            <constraint firstItem="6O6-tv-Wq3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="ypU-no-bxF"/>
+                            <constraint firstItem="3Hf-jQ-J4I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2jt-ci-Kj8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Hf-jQ-J4I" secondAttribute="trailing" id="dbl-O5-JL8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Hf-jQ-J4I" secondAttribute="bottom" id="jMt-v6-43H"/>
+                            <constraint firstItem="3Hf-jQ-J4I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mtu-Rm-Vsc"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="openSecondUIButtonOutlet" destination="6O6-tv-Wq3" id="QVn-xB-iPr"/>
-                        <outlet property="subtitleUILabelOutlet" destination="11p-0r-bpI" id="UGw-ae-L4G"/>
-                        <outlet property="titleUILabelOutlet" destination="blc-3K-IeG" id="o0J-WA-T0z"/>
+                        <outlet property="tableView" destination="3Hf-jQ-J4I" id="8i8-Lz-77M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="94"/>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
     <resources>
