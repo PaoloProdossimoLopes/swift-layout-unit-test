@@ -7,31 +7,17 @@
 
 import UIKit
 
-final class MainViewController: UIViewController {
+final class MainViewController: UINavigationController {
     
     //MARK: - OUTLETS
-    
-    @IBOutlet weak private var titleUILabelOutlet: UILabel?
-    @IBOutlet weak private var subtitleUILabelOutlet: UILabel?
-    @IBOutlet weak private var openSecondUIButtonOutlet: UIButton?
-    
-    //MARK: - LIFECYCLE
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        commonInit()
-    }
-    
-    //MARK: - Helpers
-    
-    private func commonInit() {
-        
-    }
+    @IBOutlet weak private(set) var titleUILabelOutlet: UILabel?
+    @IBOutlet weak private(set) var subtitleUILabelOutlet: UILabel?
+    @IBOutlet weak private(set) var openSecondUIButtonOutlet: UIButton?
     
     //MARK: - ACTIONS
     @IBAction func openSecondUIButttonAction(_ sender: Any) {
-        
+        let controller = SecondViewController()
+        self.pushViewController(controller, animated: true)
     }
-    
 }
 
